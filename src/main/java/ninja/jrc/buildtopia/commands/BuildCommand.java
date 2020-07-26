@@ -92,7 +92,7 @@ public class BuildCommand implements CommandExecutor {
                     String editors = "";
                     int i = 0;
                     for(OfflinePlayer offlinePlayer : worldWrapper.getEditors()){
-                        if(i > 0) editors += " ,";
+                        if(i > 0) editors += ", ";
                         editors += offlinePlayer.getName();
                         i++;
                     }
