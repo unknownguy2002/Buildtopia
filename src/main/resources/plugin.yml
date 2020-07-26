@@ -1,0 +1,23 @@
+name: Buildtopia
+version: @version@
+main: ninja.jrc.buildtopia.Buildtopia
+api-version: 1.16
+authors: [unknownguy2002]
+description: Minecraft building, Growtopia style
+website: jrc.ninja
+
+softdepend: [WorldEdit]
+
+commands:
+  buildtopia:
+    description: Base command of Buildtopia
+    usage: |
+      /<command> [help]
+  build:
+    description: Command for Buildtopia builds
+    usage: |
+      /<command> [new | visit | list | grant] <name>
+
+
+
+
