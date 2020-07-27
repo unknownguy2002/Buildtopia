@@ -16,4 +16,5 @@ Still work in progress! Recommended for servers with friends for now!
 - [ ] Add messages for several rejections
 - [ ] Add permission & checks
 - [ ] Add build limit
+- [ ] Permission/Admin Bypass
 
